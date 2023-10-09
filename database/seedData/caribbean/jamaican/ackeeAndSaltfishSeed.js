@@ -1,4 +1,5 @@
 module.exports = {
+  uriName: "ackee-and-saltfish",
   name: "Ackee & Saltfish",
   description: [
     "Ackee and saltfish stands as an emblematic cornerstone of Jamaican gastronomy, a delicacy both nuanced and rich in historical resonance. Envision, if you will, the gentle melding of ackee, that illustrious golden fruit, with the meticulously cured saltfish, each element masterfully orchestrated in a pan. The resultant amalgamation, complemented by the aromatic trinity of onions, tomatoes, and a modicum of Scotch bonnet peppers, epitomizes a culinary synthesis of unparalleled sophistication.",
@@ -9,15 +10,18 @@ module.exports = {
   nation: "Jamaica",
   nationUri: "https://duutchie-server.s3.eu-west-2.amazonaws.com/national-flags/jamaican-flag.jpg",
   mealType: ["breakfast", "dinner"],
+  vegetarian: false,
+  vegan: false,
   prepTime: "15 mins",
   cookTime: "20 mins",
   cost: "££",
   imageUri: "https://duutchie-server.s3.eu-west-2.amazonaws.com/recipe-images/ackee-and-saltfish.jpg",
   visits: 0,
   ingredients: {
-    index: ["ackee 400g", "saltfish 200g"],
+    index: ["Salted Cod - 225g", "Vegetble Oil - 2 tbsp", "Onion, diced - half", "Scotch Bonnet, minced - half", "Garlic Cloves, minced - 2", "Tomato, cored and diced - 1", "Spring Onion, thinly sliced - 1", "Fresh Thyme, chopped - 2 tps", "Ackee - 450g", "Salt & Pepper - to taste"],
   },
   recipe: {
     index: ["boil saltfish", "drain ackee"],
   },
+  makeWith: []
 };

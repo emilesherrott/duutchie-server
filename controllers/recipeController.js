@@ -18,8 +18,8 @@ const index = async (req, res) => {
 
 const show = async (req, res) => {
   try {
-    const idx = req.params.idx;
-    const recipe = await Recipe.getOne(idx);
+    const uriName = req.params.uriName;
+    const recipe = await Recipe.getOne(uriName);
     res.status(200).json({
       success: true,
       recipe: recipe,
