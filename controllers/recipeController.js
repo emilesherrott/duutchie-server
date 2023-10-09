@@ -22,7 +22,7 @@ const show = async (req, res) => {
     const recipe = await Recipe.getOne(idx);
     res.status(200).json({
       success: true,
-      recipes: recipe,
+      recipe: recipe,
     });
   } catch (e) {
     res.status(500).json({

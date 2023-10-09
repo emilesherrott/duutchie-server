@@ -8,6 +8,7 @@ class Recipe {
         this.description = data.description,
         this.region = data.region,
         this.nation = data.nation,
+        this.nationUri = data.nationUri,
         this.mealType = data.mealType,
         this.prepTime = data.prepTime,
         this.cookTime = data.cookTime,

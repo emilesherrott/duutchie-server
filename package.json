@@ -9,6 +9,7 @@
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "seed": "node database/seedRecipes.js"
   }
 }
